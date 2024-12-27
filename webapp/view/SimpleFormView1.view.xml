@@ -1,0 +1,48 @@
+<mvc:View controllerName="zsimpleform.projectmds1.controller.SimpleFormView1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m" xmlns:f='sap.ui.layout.form' xmlns:core="sap.ui.core">
+    <Page id="page" title="SimpleForm">
+        <content>
+            <f:SimpleForm id="form1" title="Employee Details" editable="true" layout="ResponsiveGridLayout"
+             labelSpanL="4" labelSpanM="4" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2">
+                <core:Title text="Employee" id="Emp"></core:Title>
+                <Label id="EpIdLb1" text="Employee ID"></Label>
+                <Input id="EpIdIp1"></Input>
+
+                <Label id="EpNmLb1" text="Employee Name"></Label>
+                <Input id="EpNmIp1"></Input>
+
+                <Label id="EpDesLb1" text="Employee Designation"></Label>
+                <Input id="EpDesIp1"></Input>
+
+                <Label id="EpDepLb1" text="Employee Department"></Label>
+                <Input id="EpDepIp1"></Input>
+                
+                <core:Title id="Contact" text="Contact Details"></core:Title>
+                <Label id="EpEmLb1" text="Email Add"></Label>
+                <Input id="EpEmIp1"></Input>
+
+                <Label id="EpPhLb1" text="Phone"></Label>
+                <Input id="EpPhIp1"></Input>
+
+                <core:Title id="Skills" text="Education and Skills"></core:Title>
+                <Label id="EpSkLb1" text="Skills"></Label>
+                <Input id="EpSkIp1"></Input>
+
+                <Label id="EpEdLb1" text="Education"></Label>
+                <Input id="EpEdIp1"></Input>
+
+
+            
+            </f:SimpleForm>     
+        </content>
+        <footer>
+            <Bar id="bar1">
+                <contentRight>
+                    <Button id="save" text="Save" press="onSaveNew"></Button>
+                </contentRight>
+                
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>
