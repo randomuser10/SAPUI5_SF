@@ -10,7 +10,7 @@
                 <Input id="EpIdIp1"></Input>
 
                 <Label id="EpNmLb1" text="Employee Name"></Label>
-                <Input id="EpNmIp1"></Input>
+                <Input id="EpNmIp1"></Input>    
 
                 <Label id="EpDesLb1" text="Employee Designation"></Label>
                 <Input id="EpDesIp1"></Input>
