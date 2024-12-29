@@ -6,7 +6,7 @@
             <f:SimpleForm id="form1" title="Employee Details" editable="true" layout="ResponsiveGridLayout"
              labelSpanL="4" labelSpanM="4" emptySpanL="0" emptySpanM="0" columnsL="3" columnsM="2">
                 <core:Title text="Employee" id="Emp"></core:Title>
-                <Label id="EpIdLb1" text="Employee ID"></Label>
+                <Label id="EpIdLb1" text="Employee ID" required="true"></Label>
                 <Input id="EpIdIp1"></Input>
 
                 <Label id="EpNmLb1" text="Employee Name"></Label>
