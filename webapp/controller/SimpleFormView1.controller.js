@@ -9,9 +9,10 @@ sap.ui.define([
         onSaveNew(){
             var empid = this.getView().byId("EpIdIp1").getValue();
 
-            if (empid ==="") {
-                this.getView().byId("EpIdIp1").getValueState("Error");
-            } else {
+            if (empid === "") {
+                this.getView().byId("EpIdIp1").setValueState("Error");
+                this.getView().byId("EpIdIp1").setValueStateText("Please enter employee Id");
+            // } else {
                 
             }
         }
