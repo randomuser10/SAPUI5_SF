@@ -12,7 +12,9 @@ sap.ui.define([
             if (empid === "") {
                 this.getView().byId("EpIdIp1").setValueState("Error");
                 this.getView().byId("EpIdIp1").setValueStateText("Please enter employee Id");
-            // } else {
+            }
+            else{
+                this.getView().byId("EpIdIp1").setValueState("None")
                 
             }
         }
